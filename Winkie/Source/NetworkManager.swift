@@ -11,21 +11,23 @@ public class NetworkManager {
 	public init() { }
 
 	public func load<R: NetworkRequest>(request: R, completion: @escaping R.Handler) {
-		guard let urlRequest = request.request else { completion(nil, LoadError.invalidRequest); return }
+		guard let urlRequest = request.request else { completion(.failure(ResponseError.invalidRequest)); return }
 
 		// This should be configurable. what session / configuration / delegate / queue
 		let session = URLSession(configuration: .ephemeral, delegate: nil, delegateQueue: nil)
 
 		// This should be configurable. data vs download task
 		let task = session.dataTask(with: urlRequest) { (data, response, error) in
-			guard error == nil else { completion(nil, error); return }
-			guard let data = data else { completion(nil, error); return }
+			guard let data = data, error == nil else {
+				completion(.failure(error ?? ResponseError.invalidResponse))
+				return
+			}
 
 			do {
 				let result = try request.decode(data: data)
-				completion(result, nil)
+				completion(.success(result))
 			} catch {
-				completion(nil, error)
+				completion(.failure(error))
 			}
 		}
 
@@ -34,9 +36,7 @@ public class NetworkManager {
 }
 
 
-public extension NetworkManager {
-
-	enum LoadError: Error {
-		case invalidRequest
-	}
+public enum ResponseError: Error {
+	case invalidRequest
+	case invalidResponse
 }

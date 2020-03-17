@@ -32,8 +32,8 @@ struct FillMurrayRequest: NetworkRequest {
 		request = URLRequest(url: url)
 	}
 
-	func decode(data: Data) throws -> FillMurrayRequest.ResultType? {
-		let image = UIImage(data: data)
+	func decode(data: Data) throws -> FillMurrayRequest.ResultType {
+		guard let image = UIImage(data: data) else { throw ResponseError.invalidResponse }
 
 		return image
 	}
