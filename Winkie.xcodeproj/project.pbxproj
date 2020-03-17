@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E114B724205DB0005CBF69 /* Winkie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E114AD24205DB0005CBF69 /* Winkie.framework */; };
+		75E114BC24205DB0005CBF69 /* WinkieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114BB24205DB0005CBF69 /* WinkieTests.swift */; };
+		75E114BE24205DB0005CBF69 /* Winkie.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E114B024205DB0005CBF69 /* Winkie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E114CE24205E2F005CBF69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114CD24205E2F005CBF69 /* AppDelegate.swift */; };
+		75E114D024205E2F005CBF69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114CF24205E2F005CBF69 /* SceneDelegate.swift */; };
+		75E114D224205E2F005CBF69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114D124205E2F005CBF69 /* ViewController.swift */; };
+		75E114D524205E2F005CBF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E114D324205E2F005CBF69 /* Main.storyboard */; };
+		75E114D724205E30005CBF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E114D624205E30005CBF69 /* Assets.xcassets */; };
+		75E114DA24205E30005CBF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E114D824205E30005CBF69 /* LaunchScreen.storyboard */; };
+		75E114E424205EEE005CBF69 /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114E024205EEE005CBF69 /* NetworkTask.swift */; };
+		75E114E524205EEE005CBF69 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114E124205EEE005CBF69 /* NetworkManager.swift */; };
+		75E114E624205EEE005CBF69 /* NetworkRequestDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114E224205EEE005CBF69 /* NetworkRequestDecorator.swift */; };
+		75E114E724205EEE005CBF69 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114E324205EEE005CBF69 /* NetworkRequest.swift */; };
+		75E114EF242107E0005CBF69 /* Winkie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E114AD24205DB0005CBF69 /* Winkie.framework */; };
+		75E114F0242107E0005CBF69 /* Winkie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75E114AD24205DB0005CBF69 /* Winkie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75E114F624210820005CBF69 /* GetTestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114F424210820005CBF69 /* GetTestImage.swift */; };
+		75E114F724210820005CBF69 /* GetUserPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114F524210820005CBF69 /* GetUserPosts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E114B824205DB0005CBF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E114A424205DB0005CBF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E114AC24205DB0005CBF69;
+			remoteInfo = Winkie;
+		};
+		75E114F1242107E0005CBF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E114A424205DB0005CBF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E114AC24205DB0005CBF69;
+			remoteInfo = Winkie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75E114F3242107E0005CBF69 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75E114F0242107E0005CBF69 /* Winkie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75E114AD24205DB0005CBF69 /* Winkie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Winkie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E114B024205DB0005CBF69 /* Winkie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Winkie.h; sourceTree = "<group>"; };
+		75E114B124205DB0005CBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E114B624205DB0005CBF69 /* WinkieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinkieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E114BB24205DB0005CBF69 /* WinkieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinkieTests.swift; sourceTree = "<group>"; };
+		75E114BD24205DB0005CBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E114CB24205E2F005CBF69 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E114CD24205E2F005CBF69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75E114CF24205E2F005CBF69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75E114D124205E2F005CBF69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75E114D424205E2F005CBF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E114D624205E30005CBF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75E114D924205E30005CBF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75E114DB24205E30005CBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E114E024205EEE005CBF69 /* NetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
+		75E114E124205EEE005CBF69 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		75E114E224205EEE005CBF69 /* NetworkRequestDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestDecorator.swift; sourceTree = "<group>"; };
+		75E114E324205EEE005CBF69 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		75E114F424210820005CBF69 /* GetTestImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTestImage.swift; sourceTree = "<group>"; };
+		75E114F524210820005CBF69 /* GetUserPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserPosts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E114AA24205DB0005CBF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E114B324205DB0005CBF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114B724205DB0005CBF69 /* Winkie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E114C824205E2F005CBF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114EF242107E0005CBF69 /* Winkie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75E114A324205DB0005CBF69 = {
+			isa = PBXGroup;
+			children = (
+				75E114AF24205DB0005CBF69 /* Winkie */,
+				75E114BA24205DB0005CBF69 /* WinkieTests */,
+				75E114CC24205E2F005CBF69 /* Demo */,
+				75E114AE24205DB0005CBF69 /* Products */,
+				75E114EE242107E0005CBF69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		75E114AE24205DB0005CBF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E114AD24205DB0005CBF69 /* Winkie.framework */,
+				75E114B624205DB0005CBF69 /* WinkieTests.xctest */,
+				75E114CB24205E2F005CBF69 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E114AF24205DB0005CBF69 /* Winkie */ = {
+			isa = PBXGroup;
+			children = (
+				75E114DF24205ED0005CBF69 /* Source */,
+				75E114E924205F7B005CBF69 /* Assets */,
+				75E114EA24205F85005CBF69 /* Build */,
+			);
+			path = Winkie;
+			sourceTree = "<group>";
+		};
+		75E114BA24205DB0005CBF69 /* WinkieTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E114BB24205DB0005CBF69 /* WinkieTests.swift */,
+				75E114BD24205DB0005CBF69 /* Info.plist */,
+			);
+			path = WinkieTests;
+			sourceTree = "<group>";
+		};
+		75E114CC24205E2F005CBF69 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				75E114EB242106DD005CBF69 /* Source */,
+				75E114EC242106E5005CBF69 /* Assets */,
+				75E114ED242106ED005CBF69 /* Build */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		75E114DF24205ED0005CBF69 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75E114E124205EEE005CBF69 /* NetworkManager.swift */,
+				75E114E324205EEE005CBF69 /* NetworkRequest.swift */,
+				75E114E224205EEE005CBF69 /* NetworkRequestDecorator.swift */,
+				75E114E024205EEE005CBF69 /* NetworkTask.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		75E114E924205F7B005CBF69 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		75E114EA24205F85005CBF69 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				75E114B024205DB0005CBF69 /* Winkie.h */,
+				75E114B124205DB0005CBF69 /* Info.plist */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		75E114EB242106DD005CBF69 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75E114CD24205E2F005CBF69 /* AppDelegate.swift */,
+				75E114CF24205E2F005CBF69 /* SceneDelegate.swift */,
+				75E114D124205E2F005CBF69 /* ViewController.swift */,
+				75E114F424210820005CBF69 /* GetTestImage.swift */,
+				75E114F524210820005CBF69 /* GetUserPosts.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		75E114EC242106E5005CBF69 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				75E114D324205E2F005CBF69 /* Main.storyboard */,
+				75E114D824205E30005CBF69 /* LaunchScreen.storyboard */,
+				75E114D624205E30005CBF69 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		75E114ED242106ED005CBF69 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				75E114DB24205E30005CBF69 /* Info.plist */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		75E114EE242107E0005CBF69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75E114A824205DB0005CBF69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114BE24205DB0005CBF69 /* Winkie.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		75E114AC24205DB0005CBF69 /* Winkie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E114C124205DB0005CBF69 /* Build configuration list for PBXNativeTarget "Winkie" */;
+			buildPhases = (
+				75E114A824205DB0005CBF69 /* Headers */,
+				75E114A924205DB0005CBF69 /* Sources */,
+				75E114AA24205DB0005CBF69 /* Frameworks */,
+				75E114AB24205DB0005CBF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Winkie;
+			productName = Winkie;
+			productReference = 75E114AD24205DB0005CBF69 /* Winkie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75E114B524205DB0005CBF69 /* WinkieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E114C424205DB0005CBF69 /* Build configuration list for PBXNativeTarget "WinkieTests" */;
+			buildPhases = (
+				75E114B224205DB0005CBF69 /* Sources */,
+				75E114B324205DB0005CBF69 /* Frameworks */,
+				75E114B424205DB0005CBF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E114B924205DB0005CBF69 /* PBXTargetDependency */,
+			);
+			name = WinkieTests;
+			productName = WinkieTests;
+			productReference = 75E114B624205DB0005CBF69 /* WinkieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75E114CA24205E2F005CBF69 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E114DC24205E30005CBF69 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				75E114C724205E2F005CBF69 /* Sources */,
+				75E114C824205E2F005CBF69 /* Frameworks */,
+				75E114C924205E2F005CBF69 /* Resources */,
+				75E114F3242107E0005CBF69 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E114F2242107E0005CBF69 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 75E114CB24205E2F005CBF69 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E114A424205DB0005CBF69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = gleesh;
+				TargetAttributes = {
+					75E114AC24205DB0005CBF69 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					75E114B524205DB0005CBF69 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					75E114CA24205E2F005CBF69 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 75E114A724205DB0005CBF69 /* Build configuration list for PBXProject "Winkie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E114A324205DB0005CBF69;
+			productRefGroup = 75E114AE24205DB0005CBF69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E114AC24205DB0005CBF69 /* Winkie */,
+				75E114B524205DB0005CBF69 /* WinkieTests */,
+				75E114CA24205E2F005CBF69 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E114AB24205DB0005CBF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E114B424205DB0005CBF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E114C924205E2F005CBF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114DA24205E30005CBF69 /* LaunchScreen.storyboard in Resources */,
+				75E114D724205E30005CBF69 /* Assets.xcassets in Resources */,
+				75E114D524205E2F005CBF69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E114A924205DB0005CBF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114E524205EEE005CBF69 /* NetworkManager.swift in Sources */,
+				75E114E424205EEE005CBF69 /* NetworkTask.swift in Sources */,
+				75E114E724205EEE005CBF69 /* NetworkRequest.swift in Sources */,
+				75E114E624205EEE005CBF69 /* NetworkRequestDecorator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E114B224205DB0005CBF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114BC24205DB0005CBF69 /* WinkieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E114C724205E2F005CBF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114F624210820005CBF69 /* GetTestImage.swift in Sources */,
+				75E114D224205E2F005CBF69 /* ViewController.swift in Sources */,
+				75E114CE24205E2F005CBF69 /* AppDelegate.swift in Sources */,
+				75E114D024205E2F005CBF69 /* SceneDelegate.swift in Sources */,
+				75E114F724210820005CBF69 /* GetUserPosts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E114B924205DB0005CBF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E114AC24205DB0005CBF69 /* Winkie */;
+			targetProxy = 75E114B824205DB0005CBF69 /* PBXContainerItemProxy */;
+		};
+		75E114F2242107E0005CBF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E114AC24205DB0005CBF69 /* Winkie */;
+			targetProxy = 75E114F1242107E0005CBF69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E114D324205E2F005CBF69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E114D424205E2F005CBF69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E114D824205E30005CBF69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E114D924205E30005CBF69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75E114BF24205DB0005CBF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75E114C024205DB0005CBF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75E114C224205DB0005CBF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Winkie/Build/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.Winkie;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E114C324205DB0005CBF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Winkie/Build/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.Winkie;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75E114C524205DB0005CBF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinkieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.WinkieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E114C624205DB0005CBF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WinkieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.WinkieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75E114DD24205E30005CBF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Build/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E114DE24205E30005CBF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Build/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E114A724205DB0005CBF69 /* Build configuration list for PBXProject "Winkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E114BF24205DB0005CBF69 /* Debug */,
+				75E114C024205DB0005CBF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E114C124205DB0005CBF69 /* Build configuration list for PBXNativeTarget "Winkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E114C224205DB0005CBF69 /* Debug */,
+				75E114C324205DB0005CBF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E114C424205DB0005CBF69 /* Build configuration list for PBXNativeTarget "WinkieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E114C524205DB0005CBF69 /* Debug */,
+				75E114C624205DB0005CBF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E114DC24205E30005CBF69 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E114DD24205E30005CBF69 /* Debug */,
+				75E114DE24205E30005CBF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E114A424205DB0005CBF69 /* Project object */;
+}
