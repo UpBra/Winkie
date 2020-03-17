@@ -10,6 +10,20 @@
 		75E114B724205DB0005CBF69 /* Winkie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E114AD24205DB0005CBF69 /* Winkie.framework */; };
 		75E114BC24205DB0005CBF69 /* WinkieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114BB24205DB0005CBF69 /* WinkieTests.swift */; };
 		75E114BE24205DB0005CBF69 /* Winkie.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E114B024205DB0005CBF69 /* Winkie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E114CE24205E2F005CBF69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114CD24205E2F005CBF69 /* AppDelegate.swift */; };
+		75E114D024205E2F005CBF69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114CF24205E2F005CBF69 /* SceneDelegate.swift */; };
+		75E114D224205E2F005CBF69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114D124205E2F005CBF69 /* ViewController.swift */; };
+		75E114D524205E2F005CBF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E114D324205E2F005CBF69 /* Main.storyboard */; };
+		75E114D724205E30005CBF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E114D624205E30005CBF69 /* Assets.xcassets */; };
+		75E114DA24205E30005CBF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E114D824205E30005CBF69 /* LaunchScreen.storyboard */; };
+		75E114E424205EEE005CBF69 /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114E024205EEE005CBF69 /* NetworkTask.swift */; };
+		75E114E524205EEE005CBF69 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114E124205EEE005CBF69 /* NetworkManager.swift */; };
+		75E114E624205EEE005CBF69 /* NetworkRequestDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114E224205EEE005CBF69 /* NetworkRequestDecorator.swift */; };
+		75E114E724205EEE005CBF69 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114E324205EEE005CBF69 /* NetworkRequest.swift */; };
+		75E114EF242107E0005CBF69 /* Winkie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E114AD24205DB0005CBF69 /* Winkie.framework */; };
+		75E114F0242107E0005CBF69 /* Winkie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75E114AD24205DB0005CBF69 /* Winkie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75E114F624210820005CBF69 /* GetTestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114F424210820005CBF69 /* GetTestImage.swift */; };
+		75E114F724210820005CBF69 /* GetUserPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E114F524210820005CBF69 /* GetUserPosts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +34,28 @@
 			remoteGlobalIDString = 75E114AC24205DB0005CBF69;
 			remoteInfo = Winkie;
 		};
+		75E114F1242107E0005CBF69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E114A424205DB0005CBF69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E114AC24205DB0005CBF69;
+			remoteInfo = Winkie;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75E114F3242107E0005CBF69 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75E114F0242107E0005CBF69 /* Winkie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		75E114AD24205DB0005CBF69 /* Winkie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Winkie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +64,20 @@
 		75E114B624205DB0005CBF69 /* WinkieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinkieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E114BB24205DB0005CBF69 /* WinkieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinkieTests.swift; sourceTree = "<group>"; };
 		75E114BD24205DB0005CBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E114CB24205E2F005CBF69 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E114CD24205E2F005CBF69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75E114CF24205E2F005CBF69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75E114D124205E2F005CBF69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75E114D424205E2F005CBF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E114D624205E30005CBF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75E114D924205E30005CBF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75E114DB24205E30005CBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E114E024205EEE005CBF69 /* NetworkTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
+		75E114E124205EEE005CBF69 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		75E114E224205EEE005CBF69 /* NetworkRequestDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestDecorator.swift; sourceTree = "<group>"; };
+		75E114E324205EEE005CBF69 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		75E114F424210820005CBF69 /* GetTestImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTestImage.swift; sourceTree = "<group>"; };
+		75E114F524210820005CBF69 /* GetUserPosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserPosts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75E114C824205E2F005CBF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114EF242107E0005CBF69 /* Winkie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,15 +112,19 @@
 			children = (
 				75E114AF24205DB0005CBF69 /* Winkie */,
 				75E114BA24205DB0005CBF69 /* WinkieTests */,
+				75E114CC24205E2F005CBF69 /* Demo */,
 				75E114AE24205DB0005CBF69 /* Products */,
+				75E114EE242107E0005CBF69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		75E114AE24205DB0005CBF69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				75E114AD24205DB0005CBF69 /* Winkie.framework */,
 				75E114B624205DB0005CBF69 /* WinkieTests.xctest */,
+				75E114CB24205E2F005CBF69 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +132,9 @@
 		75E114AF24205DB0005CBF69 /* Winkie */ = {
 			isa = PBXGroup;
 			children = (
-				75E114B024205DB0005CBF69 /* Winkie.h */,
-				75E114B124205DB0005CBF69 /* Info.plist */,
+				75E114DF24205ED0005CBF69 /* Source */,
+				75E114E924205F7B005CBF69 /* Assets */,
+				75E114EA24205F85005CBF69 /* Build */,
 			);
 			path = Winkie;
 			sourceTree = "<group>";
@@ -84,6 +146,80 @@
 				75E114BD24205DB0005CBF69 /* Info.plist */,
 			);
 			path = WinkieTests;
+			sourceTree = "<group>";
+		};
+		75E114CC24205E2F005CBF69 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				75E114EB242106DD005CBF69 /* Source */,
+				75E114EC242106E5005CBF69 /* Assets */,
+				75E114ED242106ED005CBF69 /* Build */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		75E114DF24205ED0005CBF69 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75E114E124205EEE005CBF69 /* NetworkManager.swift */,
+				75E114E324205EEE005CBF69 /* NetworkRequest.swift */,
+				75E114E224205EEE005CBF69 /* NetworkRequestDecorator.swift */,
+				75E114E024205EEE005CBF69 /* NetworkTask.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		75E114E924205F7B005CBF69 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		75E114EA24205F85005CBF69 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				75E114B024205DB0005CBF69 /* Winkie.h */,
+				75E114B124205DB0005CBF69 /* Info.plist */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		75E114EB242106DD005CBF69 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				75E114CD24205E2F005CBF69 /* AppDelegate.swift */,
+				75E114CF24205E2F005CBF69 /* SceneDelegate.swift */,
+				75E114D124205E2F005CBF69 /* ViewController.swift */,
+				75E114F424210820005CBF69 /* GetTestImage.swift */,
+				75E114F524210820005CBF69 /* GetUserPosts.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		75E114EC242106E5005CBF69 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				75E114D324205E2F005CBF69 /* Main.storyboard */,
+				75E114D824205E30005CBF69 /* LaunchScreen.storyboard */,
+				75E114D624205E30005CBF69 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		75E114ED242106ED005CBF69 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				75E114DB24205E30005CBF69 /* Info.plist */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		75E114EE242107E0005CBF69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +272,25 @@
 			productReference = 75E114B624205DB0005CBF69 /* WinkieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		75E114CA24205E2F005CBF69 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E114DC24205E30005CBF69 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				75E114C724205E2F005CBF69 /* Sources */,
+				75E114C824205E2F005CBF69 /* Frameworks */,
+				75E114C924205E2F005CBF69 /* Resources */,
+				75E114F3242107E0005CBF69 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E114F2242107E0005CBF69 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 75E114CB24205E2F005CBF69 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +303,12 @@
 				TargetAttributes = {
 					75E114AC24205DB0005CBF69 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					75E114B524205DB0005CBF69 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					75E114CA24205E2F005CBF69 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -169,6 +328,7 @@
 			targets = (
 				75E114AC24205DB0005CBF69 /* Winkie */,
 				75E114B524205DB0005CBF69 /* WinkieTests */,
+				75E114CA24205E2F005CBF69 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +348,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75E114C924205E2F005CBF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114DA24205E30005CBF69 /* LaunchScreen.storyboard in Resources */,
+				75E114D724205E30005CBF69 /* Assets.xcassets in Resources */,
+				75E114D524205E2F005CBF69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E114E524205EEE005CBF69 /* NetworkManager.swift in Sources */,
+				75E114E424205EEE005CBF69 /* NetworkTask.swift in Sources */,
+				75E114E724205EEE005CBF69 /* NetworkRequest.swift in Sources */,
+				75E114E624205EEE005CBF69 /* NetworkRequestDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +380,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75E114C724205E2F005CBF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E114F624210820005CBF69 /* GetTestImage.swift in Sources */,
+				75E114D224205E2F005CBF69 /* ViewController.swift in Sources */,
+				75E114CE24205E2F005CBF69 /* AppDelegate.swift in Sources */,
+				75E114D024205E2F005CBF69 /* SceneDelegate.swift in Sources */,
+				75E114F724210820005CBF69 /* GetUserPosts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +400,31 @@
 			target = 75E114AC24205DB0005CBF69 /* Winkie */;
 			targetProxy = 75E114B824205DB0005CBF69 /* PBXContainerItemProxy */;
 		};
+		75E114F2242107E0005CBF69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E114AC24205DB0005CBF69 /* Winkie */;
+			targetProxy = 75E114F1242107E0005CBF69 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E114D324205E2F005CBF69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E114D424205E2F005CBF69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E114D824205E30005CBF69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E114D924205E30005CBF69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		75E114BF24205DB0005CBF69 /* Debug */ = {
@@ -340,12 +550,13 @@
 		75E114C224205DB0005CBF69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Winkie/Info.plist;
+				INFOPLIST_FILE = Winkie/Build/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,6 +566,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.Winkie;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,12 +575,13 @@
 		75E114C324205DB0005CBF69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Winkie/Info.plist;
+				INFOPLIST_FILE = Winkie/Build/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,6 +599,7 @@
 		75E114C524205DB0005CBF69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WinkieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +617,7 @@
 		75E114C624205DB0005CBF69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WinkieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,6 +626,40 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.WinkieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75E114DD24205E30005CBF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Build/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E114DE24205E30005CBF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Build/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleesh.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +692,15 @@
 			buildConfigurations = (
 				75E114C524205DB0005CBF69 /* Debug */,
 				75E114C624205DB0005CBF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E114DC24205E30005CBF69 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E114DD24205E30005CBF69 /* Debug */,
+				75E114DE24205E30005CBF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

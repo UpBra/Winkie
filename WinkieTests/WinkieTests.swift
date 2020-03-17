@@ -1,13 +1,13 @@
+// —————————————————————————————————————————————————————————————————————————
 //
 //  WinkieTests.swift
-//  WinkieTests
-//
-//  Created by Blair on 3/16/20.
 //  Copyright © 2020 gleesh. All rights reserved.
 //
+// —————————————————————————————————————————————————————————————————————————
 
 import XCTest
 @testable import Winkie
+
 
 class WinkieTests: XCTestCase {
 
@@ -30,5 +30,4 @@ class WinkieTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }
