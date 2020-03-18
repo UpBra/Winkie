@@ -12,14 +12,14 @@ public protocol ResultType {
 
 
 public protocol ResultTypeDecodable: ResultType {
-	func decode(file: URL) throws -> ResultType?
-	func decode(data: Data) throws -> ResultType?
+	func decode(file: URL) throws -> ResultType
+	func decode(data: Data) throws -> ResultType
 }
 
 
 public extension ResultTypeDecodable {
 
-	func decode(file: URL) throws -> ResultType? {
+	func decode(file: URL) throws -> ResultType {
 		let data = try Data(contentsOf: file)
 		let result = try decode(data: data)
 
@@ -30,7 +30,7 @@ public extension ResultTypeDecodable {
 
 public extension ResultTypeDecodable where ResultType: Codable {
 
-	func decode(data: Data) throws -> ResultType? {
+	func decode(data: Data) throws -> ResultType {
 		let result = try JSONDecoder().decode(ResultType.self, from: data)
 
 		return result
@@ -39,7 +39,7 @@ public extension ResultTypeDecodable where ResultType: Codable {
 
 
 public protocol ResultTypeHandleable: ResultType {
-	typealias Handler = (ResultType?, Error?) -> Void
+	typealias Handler = (Result<ResultType, Error>) -> Void
 }
 
 
